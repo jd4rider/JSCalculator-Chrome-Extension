@@ -1,0 +1,77 @@
+body {
+  background-image: url('http://image.shutterstock.com/z/stock-photo-interplay-of-digital-calculator-numbers-colors-and-lights-on-the-subject-of-calculation-number-90665242.jpg');
+  height: 1000px;
+}
+
+.jumbotron {
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  
+}
+
+.im-centered { margin: auto; max-width: 770px;}
+
+button {
+  height: 75px;
+  width: 100px;
+  margin: 0;
+  font-size: 30px;
+}
+
+.zero{
+  width: 204px
+}
+.calc{
+  /*float: left;*/
+  width: 430px;
+  height: 530px;
+  background-color: green;
+  position: absolute;
+  top: 15%;
+  left: -430px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  &.active {
+    box-shadow: 2px 2px 5px black;
+  }
+}
+.screen{
+  margin:auto;
+  width: 420px;
+  height: 150px;
+  background-color: white;
+  padding-bottom: 5px;
+  border-top: 5px solid green;
+  border-bottom: 5px solid green;
+}
+.scrndisp{
+  float: right;
+  max-width: 420px;
+  font-size: 65px;
+  padding: 22px 0;
+  text-align: right;
+  /*text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;*/
+}
+.buttons{
+  margin: auto;
+  width: 412px;
+  background-color: red;
+}
+
+.out{
+  position: absolute;
+    top: 10px;
+    right: -30px;
+    height: 30px;
+    width: 30px;
+  background-color: green;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  text-align: center;
+  font-size:20px;
+  color: white;
+}
+
+
